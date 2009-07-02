@@ -1,4 +1,5 @@
 require 'rubygems'
+require 'fileutils'
 require 'RMagick'
 require File.dirname(__FILE__) + '/file_cache'
 
@@ -17,6 +18,8 @@ hoff_face = {
 input = hoff_face # hoff_in_jocks 
 src_image = File.dirname(__FILE__) + '/../img/src/' + input[:filename] + '.jpg'
 out_image = File.dirname(__FILE__) + '/../img/out/' + input[:filename] + '-mosaic.jpg' 
+
+FileUtils.mkdir_p(File.dirname(__FILE__) + '/../img/out')
 
 tile_size = 100
 
