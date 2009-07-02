@@ -3,7 +3,7 @@ require 'open-uri'
 require 'hpricot'
 require 'net/http'
 
-require 'file_cache'
+require File.dirname(__FILE__) + '/file_cache'
 
 photo_pages = []
 page = 1

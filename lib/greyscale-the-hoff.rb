@@ -17,4 +17,5 @@ Dir.new(resized_dir).entries.each do |filename|
 
   img = img.quantize(256, Magick::GRAYColorspace)
   img.write(greyscaled_file_name)
+  puts greyscaled_file_name
 end

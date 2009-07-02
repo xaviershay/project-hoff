@@ -19,4 +19,5 @@ Dir.new(cropped_dir).entries.each do |filename|
 
   img.resize!(100, 100)
   img.write(resized_file_name)
+  puts resized_file_name
 end
