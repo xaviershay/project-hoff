@@ -14,7 +14,7 @@ hoff_face = {
   :rows     => 120
 }
 
-input = hoff_in_jocks # hoff_face
+input = hoff_face # hoff_in_jocks 
 src_image = File.dirname(__FILE__) + '/../img/src/' + input[:filename] + '.jpg'
 out_image = File.dirname(__FILE__) + '/../img/out/' + input[:filename] + '-mosaic.jpg' 
 

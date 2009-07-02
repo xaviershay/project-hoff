@@ -1,0 +1,8 @@
+ruby lib/get-me-some-hoff.rb
+ruby lib/crop-the-hoff.rb
+ruby lib/resize-the-hoff.rb
+ruby lib/greyscale-the-hoff.rb
+ruby lib/mosaic-the-hoff.rb
+open img/out/hoff-face-mosaic.jpg
+
+enjoy the hoff
