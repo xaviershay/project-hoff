@@ -1,3 +1,4 @@
+gem install hpricot rmagick
 ruby lib/get-me-some-hoff.rb
 ruby lib/crop-the-hoff.rb
 ruby lib/resize-the-hoff.rb
